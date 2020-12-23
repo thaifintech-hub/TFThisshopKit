@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Commercial', :text => "©2020 Thaifintech.com" }
   s.author           = { 'qqianng' => '736516184@qq.com' }
-  s.source           = { :http => "https://tft-dev-public1.oss-cn-shenzhen.aliyuncs.com/app/TFThisshopKit.framework.zip" }
+  s.source           = { :http => "https://github.com/thaifintech-hub/TFThisshopKit/blob/main/iOS/TFThisshopKit.framework.zip?raw=true" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
