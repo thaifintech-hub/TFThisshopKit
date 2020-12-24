@@ -1,5 +1,5 @@
 PODS:
-  - TFThisshopKit (0.1.0)
+  - TFThisshopKit (0.1.2)
 
 DEPENDENCIES:
   - TFThisshopKit (from `https://raw.githubusercontent.com/thaifintech-hub/TFThisshopKit/main/iOS/TFThisshopKit.podspec`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/thaifintech-hub/TFThisshopKit/main/iOS/TFThisshopKit.podspec
 
 SPEC CHECKSUMS:
-  TFThisshopKit: a9401d293fec0ac84b76c95e3beb6cd697ff7b9c
+  TFThisshopKit: b0f9ba6de732ef11393989e3f4a0f9ff96ee370b
 
 PODFILE CHECKSUM: 6426d7b3cbd160e009047900f9bc006cdf601fd2
 
