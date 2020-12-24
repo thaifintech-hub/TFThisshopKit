@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :podspec: https://raw.githubusercontent.com/thaifintech-hub/TFThisshopKit/main/iOS/TFThisshopKit.podspec
 
 SPEC CHECKSUMS:
-  TFThisshopKit: f4f2a4cf244589244c5a4c8b197861d4117861a6
+  TFThisshopKit: a9401d293fec0ac84b76c95e3beb6cd697ff7b9c
 
-PODFILE CHECKSUM: fce6766bb7cdae0d5e566d02b038605f76a8f71e
+PODFILE CHECKSUM: 6426d7b3cbd160e009047900f9bc006cdf601fd2
 
 COCOAPODS: 1.9.3

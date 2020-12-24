@@ -7,8 +7,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-//#import "TFThisshopManager.h"
-#import <TFThisshopKit/TFThisshopKit.h>
+#import <TFThisshopKit/TFThisshopManager.h>
 
 @interface AppDelegate ()<TFThisshopManagerDelegate>
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TFThisshopKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'TFThisshopKit'
   s.homepage         = 'http://code.tft.link/rms/tft-demo'
   s.license          = { :type => 'Commercial', :text => "©2020 Thaifintech.com" }

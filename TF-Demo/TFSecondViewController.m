@@ -6,7 +6,7 @@
 //
 
 #import "TFSecondViewController.h"
-#import <TFThisshopKit/TFThisshopKit.h>
+#import <TFThisshopKit/TFThisshopManager.h>
 
 @interface TFSecondViewController ()<UITableViewDelegate, UITableViewDataSource>
 
