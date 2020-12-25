@@ -20,12 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TFThisshopManagerDelegate
         return true
     }
     
-    func thisshopRechargeSuccessed(withOrderNo orderNo: String, andShopOrderId shopOrderId: String, andCount count: String) {
-        print("recharge successed with orderNo:%@",orderNo)
+    //thisshopManager delegate
+    func thisshopRechargeSuccessed() {
+        print("recharge successed")
     }
     
-    func thisshopRechargeFailed(withOrderNo orderNo: String, andShopOrderId shopOrderId: String, andCount count: String) {
-        print("recharge failed with orderNo:%@", orderNo)
+    func thisshopRechargeFailed() {
+        print("recharge failed")
     }
 
     // MARK: UISceneSession Lifecycle

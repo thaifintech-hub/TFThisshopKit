@@ -46,14 +46,14 @@
 }
 
 #pragma mark - thisshopManager delegate
--(void)thisshopRechargeSuccessedWithOrderNo:(NSString *)orderNo andShopOrderId:(NSString *)shopOrderId andCount:(NSString *)count
+-(void)thisshopRechargeSuccessed
 {   //Recharge Successe
-    NSLog(@"recharge successed with orderNo:%@",orderNo);
+    NSLog(@"recharge successed");
 }
 
--(void)thisshopRechargeFailedWithOrderNo:(NSString *)orderNo andShopOrderId:(NSString *)shopOrderId andCount:(NSString *)count
+-(void)thisshopRechargeFailed
 {   //Recharge Failed
-    NSLog(@"recharge failed with orderNo:%@",orderNo);
+    NSLog(@"recharge failed");
 
 }
 
