@@ -26,9 +26,9 @@
     [self.window makeKeyAndVisible];
     
     //set AppId
-    [TFThisshopManager sharedInstance].TFAppId = @"TF76786";
+    [TFThisshopManager sharedInstance].TFAppId = @"TF10000";
     //set AppKey
-    [TFThisshopManager sharedInstance].TFAppKey = @"80FC7CA3DFB74672A8D2D7583BF11EB0";
+    [TFThisshopManager sharedInstance].TFAppKey = @"7D358ADB9B9646FD";
     //set delegate
     [TFThisshopManager sharedInstance].delegate = self;
 
@@ -46,15 +46,24 @@
 }
 
 #pragma mark - thisshopManager delegate
--(void)thisshopRechargeSuccessed
+-(void)thisshopRechargeSuccessedWithOrderId:(NSString *)orderId
 {   //Recharge Successe
-    NSLog(@"recharge successed");
+    NSString * str = [NSString stringWithFormat:@"recharge successed with orderId:%@", orderId];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Sucessed" message:str preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:confirm];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:true completion:nil];
+    
 }
 
--(void)thisshopRechargeFailed
+-(void)thisshopRechargeFailedWithOrderId:(NSString *)orderId
 {   //Recharge Failed
-    NSLog(@"recharge failed");
-
+    NSString * str = [NSString stringWithFormat:@"recharge failed with orderId:%@", orderId];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Failed" message:str preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:confirm];
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert animated:true completion:nil];
+    
 }
 
 @end

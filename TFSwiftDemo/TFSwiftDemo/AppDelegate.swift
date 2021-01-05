@@ -14,8 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TFThisshopManagerDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        TFThisshopManager.sharedInstance().tfAppId = "TF76786"
-        TFThisshopManager.sharedInstance().tfAppKey = "80FC7CA3DFB74672A8D2D7583BF11EB0"
+        TFThisshopManager.sharedInstance().tfAppId = "TF10000"
+        TFThisshopManager.sharedInstance().tfAppKey = "7D358ADB9B9646FD"
         TFThisshopManager.sharedInstance().delegate = self
         return true
     }

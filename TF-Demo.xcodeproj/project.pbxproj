@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041FE985258C8C480061A5AC /* TFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE984258C8C480061A5AC /* TFSecondViewController.m */; };
 		041FE98B258C8E680061A5AC /* TFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FE98A258C8E680061A5AC /* TFBaseViewController.m */; };
 		0480ACC32583605D00828B8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480ACC22583605D00828B8B /* AppDelegate.m */; };
 		0480ACC92583605D00828B8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480ACC82583605D00828B8B /* ViewController.m */; };
@@ -40,8 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041FE983258C8C480061A5AC /* TFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFSecondViewController.h; sourceTree = "<group>"; };
-		041FE984258C8C480061A5AC /* TFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFSecondViewController.m; sourceTree = "<group>"; };
 		041FE989258C8E680061A5AC /* TFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFBaseViewController.h; sourceTree = "<group>"; };
 		041FE98A258C8E680061A5AC /* TFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFBaseViewController.m; sourceTree = "<group>"; };
 		0480ACBE2583605D00828B8B /* TF-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TF-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,8 +127,6 @@
 				041FE98A258C8E680061A5AC /* TFBaseViewController.m */,
 				0480ACC72583605D00828B8B /* ViewController.h */,
 				0480ACC82583605D00828B8B /* ViewController.m */,
-				041FE983258C8C480061A5AC /* TFSecondViewController.h */,
-				041FE984258C8C480061A5AC /* TFSecondViewController.m */,
 				0480ACCA2583605D00828B8B /* Main.storyboard */,
 				0480ACCD2583606100828B8B /* Assets.xcassets */,
 				0480ACCF2583606100828B8B /* LaunchScreen.storyboard */,
@@ -383,7 +378,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041FE985258C8C480061A5AC /* TFSecondViewController.m in Sources */,
 				0480ACC92583605D00828B8B /* ViewController.m in Sources */,
 				0480ACC32583605D00828B8B /* AppDelegate.m in Sources */,
 				041FE98B258C8E680061A5AC /* TFBaseViewController.m in Sources */,
