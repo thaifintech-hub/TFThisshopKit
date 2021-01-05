@@ -21,14 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TFThisshopManagerDelegate
     }
     
     //thisshopManager delegate
-    func thisshopRechargeSuccessed() {
-        print("recharge successed")
+    func thisshopRechargeSuccessed(withOrderId orderId: String) {
+        print("recharge successed with orderId:%@",orderId)
     }
     
-    func thisshopRechargeFailed() {
-        print("recharge failed")
+    func thisshopRechargeFailed(withOrderId orderId: String) {
+        print("recharge failed with orderId:%@",orderId)
     }
-
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
